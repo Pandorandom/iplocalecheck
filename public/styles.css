@@ -1,0 +1,20 @@
+.stock {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+body {
+  background-image: url("main.jpg");
+  background-color: #cccccc;
+  background-size: auto;
+}
+
+button {
+  margin: auto;
+  width: 50%;
+  font-size: 60px;
+  font-family: fantasy;
+  color: 60, 110, 230;
+  background-color: #42ebf4;
+}

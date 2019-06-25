@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Location Checker</title>
+      <link rel="stylesheet" href="infostyles.css">
+  </head>
+  <body>
+    <!--
+    This tool is a small script to make a client-side API call to ipapi and get a JSON object of your location information based upon your IP address' geographical registration.
+
+    The divs below are structured to allow a 2x4 grid of most pertinent information.
+    -->
+    <div class"topBar" style = "background-color:#e8f6f9;">
+      <h2>Your location information based on your IP address:</h2>
+    </div>
+    <div class="row">
+      <div class="column" style = "background-color:#e8f6f9;">
+        <h2>IP Address:</h2>
+        <p id="ip">8.8.8.8</p>
+      </div>
+      <div class="column" style = "background-color:#e8f6f9;">
+        <h2>City/State:</h2>
+        <p id="cityState">New York, NY</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style = "background-color:#e8f6f9;">
+        <h2>Latitude:</h2>
+        <p id="latitude">37.4444</p>
+      </div>
+      <div class="column" style = "background-color:#e8f6f9;">
+        <h2>Longitude:</h2>
+        <p id="longitude">-115.455894</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style = "background-color:#e8f6f9;">
+        <h2>Timezone:</h2>
+        <p id="timezone">Eastern</p>
+      </div>
+      <div class="column" style = "background-color:#e8f6f9;">
+        <h2>Hours from UTC:</h2>
+        <p id="utcOffset">-4</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style = "background-color:#e8f6f9;">
+        <h2>Country Name:</h2>
+        <p id="countryName">US</p>
+      </div>
+      <div class="column" style = "background-color:#e8f6f9;">
+        <h2>Postal Code:</h2>
+        <p id="postal">12345</p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

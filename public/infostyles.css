@@ -1,0 +1,46 @@
+.stock {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+body {
+  background-image: url("main.jpg");
+  background-color: #cccccc;
+  background-size: auto;
+}
+
+button {
+  width: 50%;
+  font-size: 20px;
+  font-family: georgia;
+  color: 60, 110, 230;
+  background-color: #42ebf4;
+  padding: 10px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  border-style: groove;
+  border-color: blue;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.topBar {
+  margin: auto;
+  float: left;
+  width: 50%;
+  font-size: 12px;
+  border-style: groove;
+  border-color: blue;
+  border-right-width: thin;
+}
