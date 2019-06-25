@@ -53,6 +53,7 @@ function getLocale() {
       document.querySelector('#latitude').textContent = data.latitude;
       document.querySelector('#longitude').textContent = data.longitude;
       document.querySelector('#timezone').textContent = data.timezone;
+      document.querySelector('#utcOffset').textContent = data.utc_offset;
       document.querySelector('#countryName').textContent = data.country_name;
       document.querySelector('#postal').textContent = data.postal;
     }
